@@ -62,6 +62,20 @@ extension StudyViewController : UITableViewDelegate, UITableViewDataSource {
                 vc.cellArr = [iOSTreeType.MemoryListType.memoryLayout, iOSTreeType.MemoryListType.memoryManagementSolution, iOSTreeType.MemoryListType.dataStructure, iOSTreeType.MemoryListType.arc, iOSTreeType.MemoryListType.referenceCounting, iOSTreeType.MemoryListType.weakReference, iOSTreeType.MemoryListType.autoReleasePool, iOSTreeType.MemoryListType.circularReference]
             case .Block:
                 vc.cellArr = [iOSTreeType.BlockListType.blockMemoryManagement, iOSTreeType.BlockListType.blockCircularReference, iOSTreeType.BlockListType.blockIntroduce, iOSTreeType.BlockListType.interceptVar, iOSTreeType.BlockListType.blockModifier]
+            case .Multithreading:
+                vc.cellArr = [iOSTreeType.MultithreadingListType.nsthread, iOSTreeType.MultithreadingListType.multithreadingAndLocking, iOSTreeType.MultithreadingListType.gcd, iOSTreeType.MultithreadingListType.nsoperation]
+            case .Runloop:
+                vc.cellArr = [iOSTreeType.RunloopListType.eventLoopMechanism, iOSTreeType.RunloopListType.runloopAndNSTimer, iOSTreeType.RunloopListType.runloopAndMultithreading, iOSTreeType.RunloopListType.concept, iOSTreeType.RunloopListType.dataSturcture]
+            case .Net:
+                vc.cellArr = [iOSTreeType.NetListType.tcp, iOSTreeType.NetListType.dns, iOSTreeType.NetListType.Session, iOSTreeType.NetListType.http, iOSTreeType.NetListType.https]
+            case .Design:
+                vc.cellArr = [iOSTreeType.DesignListType.sixDesignPrinciles, iOSTreeType.DesignListType.chainOfResponsibility, iOSTreeType.DesignListType.bridge, iOSTreeType.DesignListType.adapter, iOSTreeType.DesignListType.singleton, iOSTreeType.DesignListType.command]
+            case .Framework:
+                vc.cellArr = [iOSTreeType.FrameworkListType.imageCache, iOSTreeType.FrameworkListType.readingTimeStatistics, iOSTreeType.FrameworkListType.complexPageArchitecture, iOSTreeType.FrameworkListType.overallClientArchitecture]
+            case .Algorithm:
+                vc.cellArr = [iOSTreeType.AlgorithmListType.orderedArrayMerge, iOSTreeType.AlgorithmListType.hash, iOSTreeType.AlgorithmListType.find, iOSTreeType.AlgorithmListType.stringReversal, iOSTreeType.AlgorithmListType.listInversion, iOSTreeType.AlgorithmListType.median]
+            case .Libraries:
+                vc.cellArr = [iOSTreeType.LibrariesListType.af, iOSTreeType.LibrariesListType.sdweb, iOSTreeType.LibrariesListType.reactive, iOSTreeType.LibrariesListType.async]
             default:
                 print("")
             }

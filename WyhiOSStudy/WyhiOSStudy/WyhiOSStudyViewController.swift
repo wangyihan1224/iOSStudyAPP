@@ -222,6 +222,157 @@ enum iOSTreeType {
             }
         }
     }
+    
+    enum MultithreadingListType {
+        case nsthread
+        case multithreadingAndLocking
+        case gcd
+        case nsoperation
+        func title() -> String {
+            switch self {
+            case .nsthread:
+                return "NSThread"
+            case .multithreadingAndLocking:
+                return "多线程和锁"
+            case .gcd:
+                return "GCD"
+            case .nsoperation:
+                return "NSOperation"
+            }
+        }
+    }
+    
+    enum RunloopListType {
+        case eventLoopMechanism
+        case runloopAndNSTimer
+        case runloopAndMultithreading
+        case concept
+        case dataSturcture
+        func title() -> String {
+            switch self {
+            case .eventLoopMechanism:
+                return "事件循环机制"
+            case .runloopAndNSTimer:
+                return "RunLoop与NSTimer"
+            case .runloopAndMultithreading:
+                return "RunLoop与多线程"
+            case .concept:
+                return "概念"
+            case .dataSturcture:
+                return "数据结构"
+            }
+        }
+    }
+    
+    enum NetListType {
+        case tcp
+        case dns
+        case Session
+        case http
+        case https
+        func title() -> String {
+            switch self {
+            case .tcp:
+                return "传输层协议 TCP/UDP"
+            case .dns:
+                return "DNS解析"
+            case .Session:
+                return "Session/Cookie"
+            case .http:
+                return "HTTP协议 概念 超文本传输协议"
+            case .https:
+                return "HTTPS与网络安全"
+            }
+        }
+    }
+    
+    enum DesignListType {
+        case sixDesignPrinciles
+        case chainOfResponsibility
+        case bridge
+        case adapter
+        case singleton
+        case command
+        func title() -> String {
+            switch self {
+            case .sixDesignPrinciles:
+                return "六大设计原则"
+            case .chainOfResponsibility:
+                return "责任链"
+            case .bridge:
+                return "桥接"
+            case .adapter:
+                return "适配器"
+            case .singleton:
+                return "单例"
+            case .command:
+                return "命令"
+            }
+        }
+    }
+    
+    enum FrameworkListType {
+        case imageCache
+        case readingTimeStatistics
+        case complexPageArchitecture
+        case overallClientArchitecture
+        func title() -> String {
+            switch self {
+            case .imageCache:
+                return "图片缓存"
+            case .readingTimeStatistics:
+                return "阅读时长统计"
+            case .complexPageArchitecture:
+                return "复杂页面架构"
+            case .overallClientArchitecture:
+                return "客户端整体架构"
+            }
+        }
+    }
+    
+    enum AlgorithmListType {
+        case orderedArrayMerge
+        case hash
+        case find
+        case stringReversal
+        case listInversion
+        case median
+        func title() -> String {
+            switch self {
+            case .orderedArrayMerge:
+                return "有序数组合并"
+            case .hash:
+                return "Hash算法"
+            case .find:
+                return "查找两个子视图的共同父视图"
+            case .stringReversal:
+                return "字符串反转"
+            case .listInversion:
+                return "链表反转"
+            case .median:
+                return "求无序数组当中的中位数"
+            }
+        }
+    }
+    
+    enum LibrariesListType {
+        case af
+        case sdweb
+        case reactive
+        case async
+        func title() -> String {
+            switch self {
+            case .af:
+                return "AFNetworking"
+            case .sdweb:
+                return "SDWebImage"
+            case .reactive:
+                return "ReactiveCocoa"
+            case .async:
+                return "AsyncDisplayKit"
+            }
+        }
+    }
 }
 
 class WyhiOSStudyViewController: UITabBarController {

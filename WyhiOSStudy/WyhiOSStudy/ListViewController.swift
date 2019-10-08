@@ -54,6 +54,20 @@ extension ListViewController : UITableViewDelegate, UITableViewDataSource {
             cacheStr = (model as? iOSTreeType.MemoryListType)?.title() ?? ""
         case is iOSTreeType.BlockListType:
             cacheStr = (model as? iOSTreeType.BlockListType)?.title() ?? ""
+        case is iOSTreeType.MultithreadingListType:
+            cacheStr = (model as? iOSTreeType.MultithreadingListType)?.title() ?? ""
+        case is iOSTreeType.RunloopListType:
+            cacheStr = (model as? iOSTreeType.RunloopListType)?.title() ?? ""
+        case is iOSTreeType.NetListType:
+            cacheStr = (model as? iOSTreeType.NetListType)?.title() ?? ""
+        case is iOSTreeType.DesignListType:
+            cacheStr = (model as? iOSTreeType.DesignListType)?.title() ?? ""
+        case is iOSTreeType.FrameworkListType:
+            cacheStr = (model as? iOSTreeType.FrameworkListType)?.title() ?? ""
+        case is iOSTreeType.AlgorithmListType:
+            cacheStr = (model as? iOSTreeType.AlgorithmListType)?.title() ?? ""
+        case is iOSTreeType.LibrariesListType:
+            cacheStr = (model as? iOSTreeType.LibrariesListType)?.title() ?? ""
         default:
             print("")
         }
