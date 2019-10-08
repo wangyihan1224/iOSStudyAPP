@@ -75,4 +75,43 @@ extension ListViewController : UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        DispatchQueue.main.async {
+            let model = self.cellArr[indexPath.row]
+            let vc = DataDetailViewController()
+            switch model {
+            case is iOSTreeType.UIListType:
+                
+                vc.title = (model as? iOSTreeType.UIListType)?.title() ?? ""
+                
+            case is iOSTreeType.RuntimListType:
+                vc.title = (model as? iOSTreeType.RuntimListType)?.title() ?? ""
+            case is iOSTreeType.ObjectiveCListType:
+                vc.title = (model as? iOSTreeType.ObjectiveCListType)?.title() ?? ""
+            case is iOSTreeType.MemoryListType:
+                vc.title = (model as? iOSTreeType.MemoryListType)?.title() ?? ""
+            case is iOSTreeType.BlockListType:
+                vc.title = (model as? iOSTreeType.BlockListType)?.title() ?? ""
+            case is iOSTreeType.MultithreadingListType:
+                vc.title = (model as? iOSTreeType.MultithreadingListType)?.title() ?? ""
+            case is iOSTreeType.RunloopListType:
+                vc.title = (model as? iOSTreeType.RunloopListType)?.title() ?? ""
+            case is iOSTreeType.NetListType:
+                vc.title = (model as? iOSTreeType.NetListType)?.title() ?? ""
+            case is iOSTreeType.DesignListType:
+                vc.title = (model as? iOSTreeType.DesignListType)?.title() ?? ""
+            case is iOSTreeType.FrameworkListType:
+                vc.title = (model as? iOSTreeType.FrameworkListType)?.title() ?? ""
+            case is iOSTreeType.AlgorithmListType:
+                vc.title = (model as? iOSTreeType.AlgorithmListType)?.title() ?? ""
+            case is iOSTreeType.LibrariesListType:
+                vc.title = (model as? iOSTreeType.LibrariesListType)?.title() ?? ""
+            default:
+                print("")
+            }
+            vc.path = vc.title ?? ""
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+       
+    }
 }
