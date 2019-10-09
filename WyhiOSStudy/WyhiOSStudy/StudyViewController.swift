@@ -18,6 +18,7 @@ class StudyViewController: UIViewController {
         listTable.dataSource = self
         listTable.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         self.view.addSubview(listTable)
+       
         // Do any additional setup after loading the view.
     }
     

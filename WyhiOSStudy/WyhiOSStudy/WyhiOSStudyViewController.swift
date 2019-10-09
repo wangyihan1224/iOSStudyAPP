@@ -113,6 +113,7 @@ enum iOSTreeType {
         case classObject
         case methodCache
         case forward
+        case messaging
         case methodSwizzling
         case dynamicAddMethod
         case dynamicMethodAnalysis
@@ -124,6 +125,8 @@ enum iOSTreeType {
                 return "类对象与元类对象"
             case .methodCache:
                 return "方法缓存"
+            case .messaging:
+                return "消息传递"
             case .forward:
                 return "消息转发"
             case .methodSwizzling:
@@ -186,7 +189,7 @@ enum iOSTreeType {
             case .memoryManagementSolution:
                 return "内存管理方案"
             case .dataStructure:
-                return "数据结构"
+                return "内存数据结构"
             case .arc:
                 return "ARC&MRC"
             case .referenceCounting:
