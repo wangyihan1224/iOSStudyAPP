@@ -50,6 +50,29 @@
 		7C12E78C234ED46D0098B580 /* RunLoop数据结构.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E78B234ED46D0098B580 /* RunLoop数据结构.docx */; };
 		7C12E78E234ED5F80098B580 /* 传输层协议TCP、UDP.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E78D234ED5F80098B580 /* 传输层协议TCP、UDP.docx */; };
 		7C12E790234ED7790098B580 /* DNS解析.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E78F234ED7790098B580 /* DNS解析.docx */; };
+		7C12E792234EDF1A0098B580 /* Session、Cookie.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E791234EDF1A0098B580 /* Session、Cookie.docx */; };
+		7C12E794234EE1B20098B580 /* HTTP协议 概念 超文本传输协议.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E793234EE1B20098B580 /* HTTP协议 概念 超文本传输协议.docx */; };
+		7C12E796234F07790098B580 /* HTTPS与网络安全.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E795234F07790098B580 /* HTTPS与网络安全.docx */; };
+		7C12E798234F08B40098B580 /* 六大设计原则.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E797234F08B40098B580 /* 六大设计原则.docx */; };
+		7C12E79A234F08EB0098B580 /* 责任链.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E799234F08EB0098B580 /* 责任链.docx */; };
+		7C12E79C234F09370098B580 /* 桥接.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E79B234F09370098B580 /* 桥接.docx */; };
+		7C12E79E234F09690098B580 /* 适配器.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E79D234F09690098B580 /* 适配器.docx */; };
+		7C12E7A0234F09800098B580 /* 单例.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E79F234F09800098B580 /* 单例.docx */; };
+		7C12E7A2234F09A50098B580 /* 命令.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7A1234F09A50098B580 /* 命令.docx */; };
+		7C12E7A4234F0B7B0098B580 /* 图片缓存.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7A3234F0B7B0098B580 /* 图片缓存.docx */; };
+		7C12E7A6234F13960098B580 /* 阅读时长统计.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7A5234F13960098B580 /* 阅读时长统计.docx */; };
+		7C12E7A8234F14F30098B580 /* 复杂页面架构.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7A7234F14F30098B580 /* 复杂页面架构.docx */; };
+		7C12E7AA234F15520098B580 /* 客户端整体架构.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7A9234F15520098B580 /* 客户端整体架构.docx */; };
+		7C12E7AC234F15B50098B580 /* 有序数组合并.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7AB234F15B50098B580 /* 有序数组合并.docx */; };
+		7C12E7AE234F15C70098B580 /* Hash算法.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7AD234F15C70098B580 /* Hash算法.docx */; };
+		7C12E7B0234F15D90098B580 /* 查找两个子视图的共同父视图.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7AF234F15D90098B580 /* 查找两个子视图的共同父视图.docx */; };
+		7C12E7B4234F16020098B580 /* 求无序数组当中的中位数.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7B1234F16020098B580 /* 求无序数组当中的中位数.docx */; };
+		7C12E7B5234F16020098B580 /* 字符串反转.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7B2234F16020098B580 /* 字符串反转.docx */; };
+		7C12E7B6234F16020098B580 /* 链表反转.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7B3234F16020098B580 /* 链表反转.docx */; };
+		7C12E7B8234F173D0098B580 /* AFNetworking.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7B7234F173D0098B580 /* AFNetworking.docx */; };
+		7C12E7BA234F17C30098B580 /* SDWebImage.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7B9234F17C30098B580 /* SDWebImage.docx */; };
+		7C12E7BC234F18810098B580 /* ReactiveCocoa.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7BB234F18810098B580 /* ReactiveCocoa.docx */; };
+		7C12E7BE234F19560098B580 /* AsyncDisplayKit.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E7BD234F19560098B580 /* AsyncDisplayKit.docx */; };
 		7C24C1D5234D8E0000A7FF89 /* 事件传递&事件响应.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C24C1D4234D8E0000A7FF89 /* 事件传递&事件响应.docx */; };
 		7C24C1D7234D8F3E00A7FF89 /* 图像显示原理.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C24C1D6234D8F3E00A7FF89 /* 图像显示原理.docx */; };
 		7C9C1668234C1AA900F03076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C1667234C1AA900F03076 /* AppDelegate.swift */; };
@@ -140,6 +163,29 @@
 		7C12E78B234ED46D0098B580 /* RunLoop数据结构.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RunLoop数据结构.docx"; sourceTree = "<group>"; };
 		7C12E78D234ED5F80098B580 /* 传输层协议TCP、UDP.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "传输层协议TCP、UDP.docx"; sourceTree = "<group>"; };
 		7C12E78F234ED7790098B580 /* DNS解析.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DNS解析.docx"; sourceTree = "<group>"; };
+		7C12E791234EDF1A0098B580 /* Session、Cookie.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Session、Cookie.docx"; sourceTree = "<group>"; };
+		7C12E793234EE1B20098B580 /* HTTP协议 概念 超文本传输协议.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HTTP协议 概念 超文本传输协议.docx"; sourceTree = "<group>"; };
+		7C12E795234F07790098B580 /* HTTPS与网络安全.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HTTPS与网络安全.docx"; sourceTree = "<group>"; };
+		7C12E797234F08B40098B580 /* 六大设计原则.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "六大设计原则.docx"; sourceTree = "<group>"; };
+		7C12E799234F08EB0098B580 /* 责任链.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "责任链.docx"; sourceTree = "<group>"; };
+		7C12E79B234F09370098B580 /* 桥接.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "桥接.docx"; sourceTree = "<group>"; };
+		7C12E79D234F09690098B580 /* 适配器.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "适配器.docx"; sourceTree = "<group>"; };
+		7C12E79F234F09800098B580 /* 单例.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "单例.docx"; sourceTree = "<group>"; };
+		7C12E7A1234F09A50098B580 /* 命令.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "命令.docx"; sourceTree = "<group>"; };
+		7C12E7A3234F0B7B0098B580 /* 图片缓存.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "图片缓存.docx"; sourceTree = "<group>"; };
+		7C12E7A5234F13960098B580 /* 阅读时长统计.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "阅读时长统计.docx"; sourceTree = "<group>"; };
+		7C12E7A7234F14F30098B580 /* 复杂页面架构.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "复杂页面架构.docx"; sourceTree = "<group>"; };
+		7C12E7A9234F15520098B580 /* 客户端整体架构.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "客户端整体架构.docx"; sourceTree = "<group>"; };
+		7C12E7AB234F15B50098B580 /* 有序数组合并.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "有序数组合并.docx"; sourceTree = "<group>"; };
+		7C12E7AD234F15C70098B580 /* Hash算法.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hash算法.docx"; sourceTree = "<group>"; };
+		7C12E7AF234F15D90098B580 /* 查找两个子视图的共同父视图.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "查找两个子视图的共同父视图.docx"; sourceTree = "<group>"; };
+		7C12E7B1234F16020098B580 /* 求无序数组当中的中位数.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "求无序数组当中的中位数.docx"; sourceTree = "<group>"; };
+		7C12E7B2234F16020098B580 /* 字符串反转.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "字符串反转.docx"; sourceTree = "<group>"; };
+		7C12E7B3234F16020098B580 /* 链表反转.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "链表反转.docx"; sourceTree = "<group>"; };
+		7C12E7B7234F173D0098B580 /* AFNetworking.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = AFNetworking.docx; sourceTree = "<group>"; };
+		7C12E7B9234F17C30098B580 /* SDWebImage.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = SDWebImage.docx; sourceTree = "<group>"; };
+		7C12E7BB234F18810098B580 /* ReactiveCocoa.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReactiveCocoa.docx; sourceTree = "<group>"; };
+		7C12E7BD234F19560098B580 /* AsyncDisplayKit.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = AsyncDisplayKit.docx; sourceTree = "<group>"; };
 		7C24C1D4234D8E0000A7FF89 /* 事件传递&事件响应.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "事件传递&事件响应.docx"; sourceTree = "<group>"; };
 		7C24C1D6234D8F3E00A7FF89 /* 图像显示原理.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "图像显示原理.docx"; sourceTree = "<group>"; };
 		7C9C1664234C1AA900F03076 /* WyhiOSStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyhiOSStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -359,6 +405,9 @@
 		7C9C169E234C1CAE00F03076 /* Net */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E795234F07790098B580 /* HTTPS与网络安全.docx */,
+				7C12E793234EE1B20098B580 /* HTTP协议 概念 超文本传输协议.docx */,
+				7C12E791234EDF1A0098B580 /* Session、Cookie.docx */,
 				7C12E78F234ED7790098B580 /* DNS解析.docx */,
 				7C12E78D234ED5F80098B580 /* 传输层协议TCP、UDP.docx */,
 				7C9C16B7234C3F0800F03076 /* NetStree.png */,
@@ -369,6 +418,12 @@
 		7C9C169F234C1CC800F03076 /* Design */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E7A1234F09A50098B580 /* 命令.docx */,
+				7C12E79F234F09800098B580 /* 单例.docx */,
+				7C12E79D234F09690098B580 /* 适配器.docx */,
+				7C12E79B234F09370098B580 /* 桥接.docx */,
+				7C12E799234F08EB0098B580 /* 责任链.docx */,
+				7C12E797234F08B40098B580 /* 六大设计原则.docx */,
 				7C9C16B9234C3F1100F03076 /* DesignStree.png */,
 			);
 			path = Design;
@@ -377,6 +432,10 @@
 		7C9C16A0234C1CE300F03076 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E7A9234F15520098B580 /* 客户端整体架构.docx */,
+				7C12E7A7234F14F30098B580 /* 复杂页面架构.docx */,
+				7C12E7A5234F13960098B580 /* 阅读时长统计.docx */,
+				7C12E7A3234F0B7B0098B580 /* 图片缓存.docx */,
 				7C9C16BB234C3F1A00F03076 /* FrameworkStree.png */,
 			);
 			path = Framework;
@@ -385,6 +444,12 @@
 		7C9C16A1234C1CF400F03076 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E7B3234F16020098B580 /* 链表反转.docx */,
+				7C12E7B1234F16020098B580 /* 求无序数组当中的中位数.docx */,
+				7C12E7B2234F16020098B580 /* 字符串反转.docx */,
+				7C12E7AF234F15D90098B580 /* 查找两个子视图的共同父视图.docx */,
+				7C12E7AD234F15C70098B580 /* Hash算法.docx */,
+				7C12E7AB234F15B50098B580 /* 有序数组合并.docx */,
 				7C9C16BF234C3F2F00F03076 /* AlgorithmStree.png */,
 			);
 			path = Algorithm;
@@ -393,6 +458,10 @@
 		7C9C16A2234C1D2000F03076 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E7BD234F19560098B580 /* AsyncDisplayKit.docx */,
+				7C12E7BB234F18810098B580 /* ReactiveCocoa.docx */,
+				7C12E7B9234F17C30098B580 /* SDWebImage.docx */,
+				7C12E7B7234F173D0098B580 /* AFNetworking.docx */,
 				7C9C16BD234C3F2500F03076 /* LibrariesStree.png */,
 			);
 			path = Libraries;
@@ -515,16 +584,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C0B3147234DDCCD0002DF54 /* KVC.docx in Resources */,
+				7C12E7A8234F14F30098B580 /* 复杂页面架构.docx in Resources */,
 				7C0B3141234DD9F40002DF54 /* 代理.docx in Resources */,
+				7C12E7AA234F15520098B580 /* 客户端整体架构.docx in Resources */,
+				7C12E7B6234F16020098B580 /* 链表反转.docx in Resources */,
 				7C12E782234ECF1F0098B580 /* NSOperation.docx in Resources */,
 				7C0B313B234DD04B0002DF54 /* 分类.docx in Resources */,
 				7C0B313F234DD8560002DF54 /* 扩展.docx in Resources */,
 				7C0B3129234DBC8E0002DF54 /* 离屏渲染.docx in Resources */,
 				7C0B3135234DCF330002DF54 /* Method-Swizzling.docx in Resources */,
+				7C12E7B4234F16020098B580 /* 求无序数组当中的中位数.docx in Resources */,
 				7C0B3131234DCAAE0002DF54 /* 消息传递.docx in Resources */,
+				7C12E7B0234F15D90098B580 /* 查找两个子视图的共同父视图.docx in Resources */,
+				7C12E798234F08B40098B580 /* 六大设计原则.docx in Resources */,
+				7C12E7A0234F09800098B580 /* 单例.docx in Resources */,
 				7C12E78C234ED46D0098B580 /* RunLoop数据结构.docx in Resources */,
+				7C12E79A234F08EB0098B580 /* 责任链.docx in Resources */,
+				7C12E7A6234F13960098B580 /* 阅读时长统计.docx in Resources */,
 				7C9C16BE234C3F2500F03076 /* LibrariesStree.png in Resources */,
 				7C24C1D7234D8F3E00A7FF89 /* 图像显示原理.docx in Resources */,
+				7C12E7A2234F09A50098B580 /* 命令.docx in Resources */,
 				7C0B3151234DE1D30002DF54 /* ARC&MRC.docx in Resources */,
 				7C9C16BC234C3F1A00F03076 /* FrameworkStree.png in Resources */,
 				7C12E776234EC5990098B580 /* Block介绍.docx in Resources */,
@@ -533,6 +612,7 @@
 				7C12E78E234ED5F80098B580 /* 传输层协议TCP、UDP.docx in Resources */,
 				7C0B313D234DD81B0002DF54 /* 关联对象.docx in Resources */,
 				7C0B3127234DBB130002DF54 /* 绘制原理&异步绘制.docx in Resources */,
+				7C12E7AC234F15B50098B580 /* 有序数组合并.docx in Resources */,
 				7C0B312F234DC9F80002DF54 /* 方法缓存.docx in Resources */,
 				7C0B3153234DE3970002DF54 /* 引用计数.docx in Resources */,
 				7C12E780234ECE4F0098B580 /* GCD.docx in Resources */,
@@ -541,9 +621,13 @@
 				7C12E790234ED7790098B580 /* DNS解析.docx in Resources */,
 				7C9C16AA234C37E600F03076 /* UIAsset.xcassets in Resources */,
 				7C9C16B8234C3F0800F03076 /* NetStree.png in Resources */,
+				7C12E794234EE1B20098B580 /* HTTP协议 概念 超文本传输协议.docx in Resources */,
 				7C0B314B234DDF6B0002DF54 /* 内存布局.docx in Resources */,
+				7C12E79E234F09690098B580 /* 适配器.docx in Resources */,
 				7C0B3157234DE6E70002DF54 /* 自动释放池.docx in Resources */,
+				7C12E7A4234F0B7B0098B580 /* 图片缓存.docx in Resources */,
 				7C0B314D234DE0620002DF54 /* 内存管理方案.docx in Resources */,
+				7C12E7BE234F19560098B580 /* AsyncDisplayKit.docx in Resources */,
 				7C9C16AE234C3E9700F03076 /* RuntimeStree.png in Resources */,
 				7C0B3149234DDEE90002DF54 /* 属性关键字.docx in Resources */,
 				7C12E77C234EC9560098B580 /* NSThread.docx in Resources */,
@@ -554,25 +638,33 @@
 				7C24C1D5234D8E0000A7FF89 /* 事件传递&事件响应.docx in Resources */,
 				7C0B314F234DE11F0002DF54 /* 内存数据结构.docx in Resources */,
 				7C12E78A234ED1AC0098B580 /* RunLoop概念.docx in Resources */,
+				7C12E7AE234F15C70098B580 /* Hash算法.docx in Resources */,
 				7C9C16B2234C3ECE00F03076 /* MemoryStree.png in Resources */,
+				7C12E796234F07790098B580 /* HTTPS与网络安全.docx in Resources */,
 				7C12E772234EC5340098B580 /* Block的内存管理.docx in Resources */,
+				7C12E792234EDF1A0098B580 /* Session、Cookie.docx in Resources */,
 				7C0B3155234DE5150002DF54 /* 弱引用.docx in Resources */,
 				7C12E770234EC3B50098B580 /* 循环引用.docx in Resources */,
 				7C12E788234ED1320098B580 /* RunLoop与多线程.docx in Resources */,
 				7C9C16CD234C94B600F03076 /* UITableView相关.docx in Resources */,
+				7C12E7BC234F18810098B580 /* ReactiveCocoa.docx in Resources */,
+				7C12E7BA234F17C30098B580 /* SDWebImage.docx in Resources */,
 				7C0B3145234DDC720002DF54 /* KVO.docx in Resources */,
 				7C0B312D234DC86B0002DF54 /* 类对象与元类对象.docx in Resources */,
 				7C0B3143234DDA4D0002DF54 /* 通知.docx in Resources */,
 				7C9C16C0234C3F2F00F03076 /* AlgorithmStree.png in Resources */,
 				7C9C1672234C1AAA00F03076 /* Assets.xcassets in Resources */,
 				7C0B3133234DCC5D0002DF54 /* 消息转发.docx in Resources */,
+				7C12E7B5234F16020098B580 /* 字符串反转.docx in Resources */,
 				7C12E786234ED0980098B580 /* RunLoop与NSTimer.docx in Resources */,
 				7C0B3139234DCFF00002DF54 /* 动态方法解析.docx in Resources */,
+				7C12E79C234F09370098B580 /* 桥接.docx in Resources */,
 				7C12E784234ECFFC0098B580 /* 事件循环机制.docx in Resources */,
 				7C0B3125234DB3F80002DF54 /* 卡顿&掉帧.docx in Resources */,
 				7C9C16C3234C610D00F03076 /* MultithreadingStree.png in Resources */,
 				7C0B3137234DCF960002DF54 /* 动态添加方法.docx in Resources */,
 				7C9C16B6234C3EFA00F03076 /* RunloopStree.png in Resources */,
+				7C12E7B8234F173D0098B580 /* AFNetworking.docx in Resources */,
 				7C12E778234EC8210098B580 /* 截获变量.docx in Resources */,
 				7C9C16B0234C3EAC00F03076 /* ObjectivCStree.png in Resources */,
 			);
