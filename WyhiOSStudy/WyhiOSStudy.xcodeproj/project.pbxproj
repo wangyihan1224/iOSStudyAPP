@@ -33,6 +33,23 @@
 		7C0B3153234DE3970002DF54 /* 引用计数.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C0B3152234DE3970002DF54 /* 引用计数.docx */; };
 		7C0B3155234DE5150002DF54 /* 弱引用.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C0B3154234DE5150002DF54 /* 弱引用.docx */; };
 		7C0B3157234DE6E70002DF54 /* 自动释放池.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C0B3156234DE6E70002DF54 /* 自动释放池.docx */; };
+		7C12E770234EC3B50098B580 /* 循环引用.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E76F234EC3B50098B580 /* 循环引用.docx */; };
+		7C12E772234EC5340098B580 /* Block的内存管理.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E771234EC5340098B580 /* Block的内存管理.docx */; };
+		7C12E774234EC5520098B580 /* Block的循环引用.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E773234EC5520098B580 /* Block的循环引用.docx */; };
+		7C12E776234EC5990098B580 /* Block介绍.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E775234EC5990098B580 /* Block介绍.docx */; };
+		7C12E778234EC8210098B580 /* 截获变量.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E777234EC8210098B580 /* 截获变量.docx */; };
+		7C12E77A234EC8DA0098B580 /* __block修饰符.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E779234EC8DA0098B580 /* __block修饰符.docx */; };
+		7C12E77C234EC9560098B580 /* NSThread.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E77B234EC9560098B580 /* NSThread.docx */; };
+		7C12E77E234ECA850098B580 /* 多线程和锁.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E77D234ECA850098B580 /* 多线程和锁.docx */; };
+		7C12E780234ECE4F0098B580 /* GCD.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E77F234ECE4E0098B580 /* GCD.docx */; };
+		7C12E782234ECF1F0098B580 /* NSOperation.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E781234ECF1F0098B580 /* NSOperation.docx */; };
+		7C12E784234ECFFC0098B580 /* 事件循环机制.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E783234ECFFC0098B580 /* 事件循环机制.docx */; };
+		7C12E786234ED0980098B580 /* RunLoop与NSTimer.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E785234ED0980098B580 /* RunLoop与NSTimer.docx */; };
+		7C12E788234ED1320098B580 /* RunLoop与多线程.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E787234ED1320098B580 /* RunLoop与多线程.docx */; };
+		7C12E78A234ED1AC0098B580 /* RunLoop概念.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E789234ED1AC0098B580 /* RunLoop概念.docx */; };
+		7C12E78C234ED46D0098B580 /* RunLoop数据结构.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E78B234ED46D0098B580 /* RunLoop数据结构.docx */; };
+		7C12E78E234ED5F80098B580 /* 传输层协议TCP、UDP.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E78D234ED5F80098B580 /* 传输层协议TCP、UDP.docx */; };
+		7C12E790234ED7790098B580 /* DNS解析.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C12E78F234ED7790098B580 /* DNS解析.docx */; };
 		7C24C1D5234D8E0000A7FF89 /* 事件传递&事件响应.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C24C1D4234D8E0000A7FF89 /* 事件传递&事件响应.docx */; };
 		7C24C1D7234D8F3E00A7FF89 /* 图像显示原理.docx in Resources */ = {isa = PBXBuildFile; fileRef = 7C24C1D6234D8F3E00A7FF89 /* 图像显示原理.docx */; };
 		7C9C1668234C1AA900F03076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C1667234C1AA900F03076 /* AppDelegate.swift */; };
@@ -106,6 +123,23 @@
 		7C0B3152234DE3970002DF54 /* 引用计数.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "引用计数.docx"; sourceTree = "<group>"; };
 		7C0B3154234DE5150002DF54 /* 弱引用.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "弱引用.docx"; sourceTree = "<group>"; };
 		7C0B3156234DE6E70002DF54 /* 自动释放池.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "自动释放池.docx"; sourceTree = "<group>"; };
+		7C12E76F234EC3B50098B580 /* 循环引用.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "循环引用.docx"; sourceTree = "<group>"; };
+		7C12E771234EC5340098B580 /* Block的内存管理.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Block的内存管理.docx"; sourceTree = "<group>"; };
+		7C12E773234EC5520098B580 /* Block的循环引用.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Block的循环引用.docx"; sourceTree = "<group>"; };
+		7C12E775234EC5990098B580 /* Block介绍.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Block介绍.docx"; sourceTree = "<group>"; };
+		7C12E777234EC8210098B580 /* 截获变量.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "截获变量.docx"; sourceTree = "<group>"; };
+		7C12E779234EC8DA0098B580 /* __block修饰符.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "__block修饰符.docx"; sourceTree = "<group>"; };
+		7C12E77B234EC9560098B580 /* NSThread.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = NSThread.docx; sourceTree = "<group>"; };
+		7C12E77D234ECA850098B580 /* 多线程和锁.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "多线程和锁.docx"; sourceTree = "<group>"; };
+		7C12E77F234ECE4E0098B580 /* GCD.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = GCD.docx; sourceTree = "<group>"; };
+		7C12E781234ECF1F0098B580 /* NSOperation.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = NSOperation.docx; sourceTree = "<group>"; };
+		7C12E783234ECFFC0098B580 /* 事件循环机制.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "事件循环机制.docx"; sourceTree = "<group>"; };
+		7C12E785234ED0980098B580 /* RunLoop与NSTimer.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RunLoop与NSTimer.docx"; sourceTree = "<group>"; };
+		7C12E787234ED1320098B580 /* RunLoop与多线程.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RunLoop与多线程.docx"; sourceTree = "<group>"; };
+		7C12E789234ED1AC0098B580 /* RunLoop概念.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RunLoop概念.docx"; sourceTree = "<group>"; };
+		7C12E78B234ED46D0098B580 /* RunLoop数据结构.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RunLoop数据结构.docx"; sourceTree = "<group>"; };
+		7C12E78D234ED5F80098B580 /* 传输层协议TCP、UDP.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "传输层协议TCP、UDP.docx"; sourceTree = "<group>"; };
+		7C12E78F234ED7790098B580 /* DNS解析.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DNS解析.docx"; sourceTree = "<group>"; };
 		7C24C1D4234D8E0000A7FF89 /* 事件传递&事件响应.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "事件传递&事件响应.docx"; sourceTree = "<group>"; };
 		7C24C1D6234D8F3E00A7FF89 /* 图像显示原理.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "图像显示原理.docx"; sourceTree = "<group>"; };
 		7C9C1664234C1AA900F03076 /* WyhiOSStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyhiOSStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -283,6 +317,7 @@
 		7C9C169B234C1C7200F03076 /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E76F234EC3B50098B580 /* 循环引用.docx */,
 				7C0B3156234DE6E70002DF54 /* 自动释放池.docx */,
 				7C0B3154234DE5150002DF54 /* 弱引用.docx */,
 				7C0B3152234DE3970002DF54 /* 引用计数.docx */,
@@ -298,6 +333,11 @@
 		7C9C169C234C1C9000F03076 /* Block */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E779234EC8DA0098B580 /* __block修饰符.docx */,
+				7C12E777234EC8210098B580 /* 截获变量.docx */,
+				7C12E775234EC5990098B580 /* Block介绍.docx */,
+				7C12E773234EC5520098B580 /* Block的循环引用.docx */,
+				7C12E771234EC5340098B580 /* Block的内存管理.docx */,
 				7C9C16B3234C3EE000F03076 /* BlockStree.png */,
 			);
 			path = Block;
@@ -306,6 +346,11 @@
 		7C9C169D234C1CA300F03076 /* Runloop */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E78B234ED46D0098B580 /* RunLoop数据结构.docx */,
+				7C12E789234ED1AC0098B580 /* RunLoop概念.docx */,
+				7C12E787234ED1320098B580 /* RunLoop与多线程.docx */,
+				7C12E785234ED0980098B580 /* RunLoop与NSTimer.docx */,
+				7C12E783234ECFFC0098B580 /* 事件循环机制.docx */,
 				7C9C16B5234C3EFA00F03076 /* RunloopStree.png */,
 			);
 			path = Runloop;
@@ -314,6 +359,8 @@
 		7C9C169E234C1CAE00F03076 /* Net */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E78F234ED7790098B580 /* DNS解析.docx */,
+				7C12E78D234ED5F80098B580 /* 传输层协议TCP、UDP.docx */,
 				7C9C16B7234C3F0800F03076 /* NetStree.png */,
 			);
 			path = Net;
@@ -354,6 +401,10 @@
 		7C9C16C1234C60DD00F03076 /* Multithreading */ = {
 			isa = PBXGroup;
 			children = (
+				7C12E781234ECF1F0098B580 /* NSOperation.docx */,
+				7C12E77F234ECE4E0098B580 /* GCD.docx */,
+				7C12E77D234ECA850098B580 /* 多线程和锁.docx */,
+				7C12E77B234EC9560098B580 /* NSThread.docx */,
 				7C9C16C2234C610D00F03076 /* MultithreadingStree.png */,
 			);
 			path = Multithreading;
@@ -465,21 +516,29 @@
 			files = (
 				7C0B3147234DDCCD0002DF54 /* KVC.docx in Resources */,
 				7C0B3141234DD9F40002DF54 /* 代理.docx in Resources */,
+				7C12E782234ECF1F0098B580 /* NSOperation.docx in Resources */,
 				7C0B313B234DD04B0002DF54 /* 分类.docx in Resources */,
 				7C0B313F234DD8560002DF54 /* 扩展.docx in Resources */,
 				7C0B3129234DBC8E0002DF54 /* 离屏渲染.docx in Resources */,
 				7C0B3135234DCF330002DF54 /* Method-Swizzling.docx in Resources */,
 				7C0B3131234DCAAE0002DF54 /* 消息传递.docx in Resources */,
+				7C12E78C234ED46D0098B580 /* RunLoop数据结构.docx in Resources */,
 				7C9C16BE234C3F2500F03076 /* LibrariesStree.png in Resources */,
 				7C24C1D7234D8F3E00A7FF89 /* 图像显示原理.docx in Resources */,
 				7C0B3151234DE1D30002DF54 /* ARC&MRC.docx in Resources */,
 				7C9C16BC234C3F1A00F03076 /* FrameworkStree.png in Resources */,
+				7C12E776234EC5990098B580 /* Block介绍.docx in Resources */,
+				7C12E774234EC5520098B580 /* Block的循环引用.docx in Resources */,
 				7C9C1675234C1AAA00F03076 /* LaunchScreen.storyboard in Resources */,
+				7C12E78E234ED5F80098B580 /* 传输层协议TCP、UDP.docx in Resources */,
 				7C0B313D234DD81B0002DF54 /* 关联对象.docx in Resources */,
 				7C0B3127234DBB130002DF54 /* 绘制原理&异步绘制.docx in Resources */,
 				7C0B312F234DC9F80002DF54 /* 方法缓存.docx in Resources */,
 				7C0B3153234DE3970002DF54 /* 引用计数.docx in Resources */,
+				7C12E780234ECE4F0098B580 /* GCD.docx in Resources */,
 				7C9C16BA234C3F1100F03076 /* DesignStree.png in Resources */,
+				7C12E77E234ECA850098B580 /* 多线程和锁.docx in Resources */,
+				7C12E790234ED7790098B580 /* DNS解析.docx in Resources */,
 				7C9C16AA234C37E600F03076 /* UIAsset.xcassets in Resources */,
 				7C9C16B8234C3F0800F03076 /* NetStree.png in Resources */,
 				7C0B314B234DDF6B0002DF54 /* 内存布局.docx in Resources */,
@@ -487,13 +546,19 @@
 				7C0B314D234DE0620002DF54 /* 内存管理方案.docx in Resources */,
 				7C9C16AE234C3E9700F03076 /* RuntimeStree.png in Resources */,
 				7C0B3149234DDEE90002DF54 /* 属性关键字.docx in Resources */,
+				7C12E77C234EC9560098B580 /* NSThread.docx in Resources */,
+				7C12E77A234EC8DA0098B580 /* __block修饰符.docx in Resources */,
 				7C0B312B234DC2F00002DF54 /* 数据结构.docx in Resources */,
 				7C9C16B4234C3EE000F03076 /* BlockStree.png in Resources */,
 				7C9C16AC234C37FB00F03076 /* UIStree.png in Resources */,
 				7C24C1D5234D8E0000A7FF89 /* 事件传递&事件响应.docx in Resources */,
 				7C0B314F234DE11F0002DF54 /* 内存数据结构.docx in Resources */,
+				7C12E78A234ED1AC0098B580 /* RunLoop概念.docx in Resources */,
 				7C9C16B2234C3ECE00F03076 /* MemoryStree.png in Resources */,
+				7C12E772234EC5340098B580 /* Block的内存管理.docx in Resources */,
 				7C0B3155234DE5150002DF54 /* 弱引用.docx in Resources */,
+				7C12E770234EC3B50098B580 /* 循环引用.docx in Resources */,
+				7C12E788234ED1320098B580 /* RunLoop与多线程.docx in Resources */,
 				7C9C16CD234C94B600F03076 /* UITableView相关.docx in Resources */,
 				7C0B3145234DDC720002DF54 /* KVO.docx in Resources */,
 				7C0B312D234DC86B0002DF54 /* 类对象与元类对象.docx in Resources */,
@@ -501,11 +566,14 @@
 				7C9C16C0234C3F2F00F03076 /* AlgorithmStree.png in Resources */,
 				7C9C1672234C1AAA00F03076 /* Assets.xcassets in Resources */,
 				7C0B3133234DCC5D0002DF54 /* 消息转发.docx in Resources */,
+				7C12E786234ED0980098B580 /* RunLoop与NSTimer.docx in Resources */,
 				7C0B3139234DCFF00002DF54 /* 动态方法解析.docx in Resources */,
+				7C12E784234ECFFC0098B580 /* 事件循环机制.docx in Resources */,
 				7C0B3125234DB3F80002DF54 /* 卡顿&掉帧.docx in Resources */,
 				7C9C16C3234C610D00F03076 /* MultithreadingStree.png in Resources */,
 				7C0B3137234DCF960002DF54 /* 动态添加方法.docx in Resources */,
 				7C9C16B6234C3EFA00F03076 /* RunloopStree.png in Resources */,
+				7C12E778234EC8210098B580 /* 截获变量.docx in Resources */,
 				7C9C16B0234C3EAC00F03076 /* ObjectivCStree.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

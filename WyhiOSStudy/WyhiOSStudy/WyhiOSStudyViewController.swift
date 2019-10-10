@@ -260,9 +260,9 @@ enum iOSTreeType {
             case .runloopAndMultithreading:
                 return "RunLoop与多线程"
             case .concept:
-                return "概念"
+                return "RunLoop概念"
             case .dataSturcture:
-                return "数据结构"
+                return "RunLoop数据结构"
             }
         }
     }
@@ -276,11 +276,11 @@ enum iOSTreeType {
         func title() -> String {
             switch self {
             case .tcp:
-                return "传输层协议 TCP/UDP"
+                return "传输层协议TCP、UDP"
             case .dns:
                 return "DNS解析"
             case .Session:
-                return "Session/Cookie"
+                return "Session、Cookie"
             case .http:
                 return "HTTP协议 概念 超文本传输协议"
             case .https:
