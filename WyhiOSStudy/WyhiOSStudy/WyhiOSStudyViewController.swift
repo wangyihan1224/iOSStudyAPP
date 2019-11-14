@@ -31,7 +31,7 @@ enum iOSTreeType {
         case .ObjectivC:
             return "Objectiv-C语言特性"
         case .Swift:
-            return "Swift语言特性"
+            return "Swift"
         case .Memory:
             return "内存管理"
         case .Block:
@@ -171,7 +171,201 @@ enum iOSTreeType {
     }
     
     enum SwiftListType {
+        case appFrameworks
+        case appServices
+        case developerTools
+        case grphicsAndGames
+        case media
+        case system
+        case web
+        enum SwiftAppFrameworks {
+            case appKit
+            case bundleResources
+            case foundation
+            case swift
+            case swiftUI
+            case tvML
+            case tvMLKit
+            case tvUIKit
+            case uiKit
+            case watchKit
+        }
+        enum SwiftAppServices {
+            case accounts
+            case addressBook
+            case addressBookUI
+            case adSupport
+            case applicationServices
+            case backgroudTasks
+            case businessChat
+            case callKit
+            case carPlay
+            case classKit
+            case clockKit
+            case cloudKit
+            case combine
+            case contacts
+            case contactsUI
+            case coreData
+            case coreFoundation
+            case coreLocation
+            case coreML
+            case coreMotion
+            case coreSpotlight
+            case coreText
+            case createML
+            case deviceCheck
+            case eventKit
+            case eventKitUI
+            case fileProvider
+            case fileProviderUI
+            case healthKit
+            case homeKit
+            case iAd
+            case javaScriptCore
+            case mapKit
+            case messages
+            case messageUI
+            case multipeerConnectivity
+            case naturalLanguage
+            case newsstandKit
+            case notificationCenter
+            case passKitApplePayAndWallet
+            case preferencePanes
+            case pushKit
+            case quickLook
+            case quickLookThumbailing
+            case safariServices
+            case sirKit
+            case smsAndCallReporting
+            case social
+            case speech
+            case storeKit
+            case tvServices
+            case userNotifications
+            case userNotificationsUI
+            case watchConnectivity
+            case webKit
+        }
+        enum SwiftDeveloperTools {
+            case automator
+            case codeDiagnostics
+            case playgroundSupport
+            case playgroundBluetooth
+            case scriptingBridge
+            case swiftPackages
+            case swfitPlaygrounds
+            case xcode
+            case xcodeKit
+            case xcTest
+        }
         
+        enum SwiftGraphicsAndGames {
+            case agl
+            case arKit
+            case colorSync
+            case coreAnimation
+            case coreCraphics
+            case coreImage
+            case gameController
+            case gameKit
+            case gameplayKit
+            case glKit
+            case imageIO
+            case metal
+            case metalPerformanceShaders
+            case metalKit
+            case modelIO
+            case openGLES
+            case pdfKit
+            case quartz
+            case realityKit
+            case replayKit
+            case sceneKit
+            case spriteKit
+            case vision
+        }
+        enum SwiftMedia {
+            case assetsLibrary
+            case audioToolbox
+            case audioUnit
+            case avFoundation
+            case avKit
+            case coreAudio
+            case coreAudioKit
+            case coreAudioTypes
+            case coreHaptics
+            case coreMedia
+            case coreMIDI
+            case coreVideo
+            case httpLiveStreaming
+            case iTunesLibrary
+            case mediaPlayer
+            case mediaAccessibility
+            case mediaLibrary
+            case photoKit
+            case professionalVideoApplications
+            case screeenSaver
+            case soundAnalysis
+            case videoToolbox
+            case visionKit
+        }
+        enum SwiftSystem {
+            case accelerate
+            case appleCrytoKit
+            case authenticationServices
+            case cfNetwork
+            case collaboration
+            case compression
+            case coreBluetooth
+            case coreNFC
+            case coreServices
+            case coretelephony
+            case coreWLAN
+            case cryptoTokenKit
+            case deviceManagement
+            case diskArbitration
+            case dispatch
+            case dnssd
+            case driverKit
+            case endpointSecurity
+            case exceptionHandling
+            case exernalAccessory
+            case finderSync
+            case forceFeedback
+            case fwauserLib
+            case gss
+            case hiddriverKit
+            case hypervisor
+            case inputMethodKit
+            case ioBluetooth
+            case ioBluetoothUI
+            case ioKit
+            case ioSurface
+            case ioUSBHost
+            case latentSemanticMapping
+            case localAuthentication
+            case metricKit
+            case mobileCoreServices
+            case network
+            case networkExtension
+            case objectiveCRuntime
+            case openDirectory
+            case os
+            case osLog
+            case security
+            case securityFoundation
+            case securityInterface
+            case serviceManagement
+            case simd
+            case systemConfiguration
+            case systemExtensions
+            case vmnet
+            case xpc
+            enum SwiftWeb {
+                case linkPresentation
+            }
+        }
     }
     enum MemoryListType {
         case memoryLayout
@@ -385,6 +579,7 @@ class WyhiOSStudyViewController: UITabBarController {
     var study : StudyViewController!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         home = HomeViewController()
         home.title = "首页"
         home.tabBarItem.image = UIImage(named: "normalbar")?.withRenderingMode(.alwaysOriginal)
